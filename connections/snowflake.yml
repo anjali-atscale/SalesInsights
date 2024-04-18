@@ -1,0 +1,6 @@
+unique_name: Snowflake
+object_type: connection
+label: Snowflake
+as_connection: con1
+database: QT
+schema: ATSCALE
