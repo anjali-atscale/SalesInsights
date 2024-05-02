@@ -1,6 +1,6 @@
-unique_name: New Model
+unique_name: SalesInsights
 object_type: model
-label: New Model
+label: SalesInsights
 metrics: []
 relationships:
   - unique_name: factinternetsales_empty_dimension
