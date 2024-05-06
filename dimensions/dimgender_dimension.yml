@@ -1,0 +1,19 @@
+unique_name: dimgender_dimension
+object_type: dimension
+label: dimgender_dimension
+hierarchies:
+  - unique_name: dimgender_dimension Hierarchy
+    label: dimgender_dimension Hierarchy
+    levels:
+      - unique_name: dimgender_dimension Level
+level_attributes:
+  - unique_name: dimgender_dimension Level
+    label: dimgender_dimension Level
+    contains_unique_names: false
+    dataset: dimgender
+    is_unique_key: false
+    key_columns:
+      - genderkey
+    name_column: gendername
+    sort_column: gendername
+type: standard

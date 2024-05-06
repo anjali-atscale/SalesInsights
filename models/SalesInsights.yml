@@ -3,10 +3,13 @@ object_type: model
 label: SalesInsights
 metrics: []
 relationships:
-  - unique_name: factinternetsales_empty_dimension
+  - unique_name: >-
+      factinternetsales_orderdatekey_to_dimgender_dimension_dimgender_dimension
+      Level
     from:
       dataset: factinternetsales
-      join_columns: []
+      join_columns:
+        - salesordernumber
     to:
-      dimension: ''
-      level: ''
+      dimension: dimgender_dimension
+      level: dimgender_dimension Level
