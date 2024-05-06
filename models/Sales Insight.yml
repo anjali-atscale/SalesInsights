@@ -1,0 +1,15 @@
+unique_name: Sales Insight
+object_type: model
+label: Sales Insight
+metrics: []
+relationships:
+  - unique_name: >-
+      factinternetsales_orderdatekey_to_datecustom_dimension_datecustom_dimension
+      Level
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - orderdatekey
+    to:
+      dimension: datecustom_dimension
+      level: datecustom_dimension Level
