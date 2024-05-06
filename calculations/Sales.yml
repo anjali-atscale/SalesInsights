@@ -1,0 +1,5 @@
+unique_name: Sales
+object_type: metric_calc
+label: 'Sales '
+expression: sum(salesamount)
+is_hidden: false
