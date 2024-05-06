@@ -1,7 +1,8 @@
 unique_name: Sales Insight
 object_type: model
 label: Sales Insight
-metrics: []
+metrics:
+  - unique_name: m_factinternetsales_salesamount_sum
 relationships:
   - unique_name: >-
       factinternetsales_orderdatekey_to_datecustom_dimension_datecustom_dimension
