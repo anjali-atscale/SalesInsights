@@ -1,5 +1,0 @@
-unique_name: composite_calc
-object_type: metric_calc
-label: composite_calc
-expression: '[Measures].[m_factinternetsales_salesamount_sum]+ 100'
-mdx_aggregate_function: SUM
