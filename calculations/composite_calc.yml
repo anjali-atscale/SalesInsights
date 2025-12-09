@@ -1,0 +1,8 @@
+unique_name: composite_calc
+object_type: metric_calc
+label: composite_calc
+description: composite_calc test
+expression: >-
+  [Measures].[m_factinternetsales_salesamount_sum] +
+  [Measures].[m_factfinance_amount_sum]
+mdx_aggregate_function: SUM

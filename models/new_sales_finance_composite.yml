@@ -1,0 +1,9 @@
+unique_name: new_sales_finance_composite
+object_type: composite_model
+label: new_sales_finance_composite
+description: test
+metrics:
+  - unique_name: composite_calc
+models:
+  - Sales Insight
+  - sales_finance
