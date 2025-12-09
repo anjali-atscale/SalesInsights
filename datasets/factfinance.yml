@@ -1,0 +1,22 @@
+unique_name: factfinance
+object_type: dataset
+label: factfinance
+columns:
+  - name: financekey
+    data_type: decimal(38,0)
+  - name: datekey
+    data_type: decimal(38,0)
+  - name: organizationkey
+    data_type: decimal(38,0)
+  - name: departmentgroupkey
+    data_type: decimal(38,0)
+  - name: scenariokey
+    data_type: decimal(38,0)
+  - name: accountkey
+    data_type: decimal(38,0)
+  - name: amount
+    data_type: double
+  - name: date
+    data_type: string
+connection_id: con_ATSCALE_SAMPLE_DATA_as_adventure
+table: factfinance

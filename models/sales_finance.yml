@@ -1,0 +1,14 @@
+unique_name: sales_finance
+object_type: model
+label: sales_finance
+metrics:
+  - unique_name: m_factfinance_amount_sum
+relationships:
+  - unique_name: factfinance_datekey_to_datecustom_dimension_datecustom_dimension Level
+    from:
+      dataset: factfinance
+      join_columns:
+        - datekey
+    to:
+      dimension: datecustom_dimension
+      level: datecustom_dimension Level

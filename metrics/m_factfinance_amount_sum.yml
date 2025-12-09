@@ -1,0 +1,6 @@
+unique_name: m_factfinance_amount_sum
+object_type: metric
+label: Amount
+calculation_method: sum
+column: amount
+dataset: factfinance
