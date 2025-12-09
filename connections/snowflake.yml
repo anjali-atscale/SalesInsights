@@ -2,5 +2,5 @@ unique_name: Snowflake
 object_type: connection
 label: Snowflake
 as_connection: Snowflake
-database: DWOOD
-schema: BENCHMARK_AGGS
+database: SAXO_BANK
+schema: PUBLIC
