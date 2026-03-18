@@ -1,0 +1,3 @@
+[submodule "shared-dimension"]
+	path = shared-dimension
+	url = https://github.com/anjali-atscale/Sales_test.git
