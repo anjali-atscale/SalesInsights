@@ -1,0 +1,6 @@
+version: 1
+packages:
+  - version: commit:5cb03056ad229665a0b95e37d16e6d56a836e4e5
+    name: shared
+    url: https://github.com/BhargaviPasarlapati/sharedobjects.git
+    branch: main
