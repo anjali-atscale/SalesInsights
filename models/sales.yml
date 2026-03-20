@@ -3,6 +3,7 @@ object_type: model
 label: sales
 metrics:
   - unique_name: m_factinternetsales_unitprice_sum
+  - unique_name: m_factinternetsales_salesamount_sum
 relationships:
   - unique_name: >-
       factinternetsales_shipdatekey_to_datecustom_dimension_datecustom_dimension
