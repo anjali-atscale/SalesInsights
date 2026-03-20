@@ -1,0 +1,16 @@
+unique_name: sales
+object_type: model
+label: sales
+metrics:
+  - unique_name: m_factinternetsales_unitprice_sum
+relationships:
+  - unique_name: >-
+      factinternetsales_shipdatekey_to_datecustom_dimension_datecustom_dimension
+      Level
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - shipdatekey
+    to:
+      dimension: datecustom_dimension
+      level: datecustom_dimension Level

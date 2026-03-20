@@ -1,6 +1,0 @@
-unique_name: m_factinternetsales
-object_type: metric
-label: M Fact Interester Net Sales
-calculation_method: minimum
-column: orderquantity
-dataset: factinternetsales
