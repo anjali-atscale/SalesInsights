@@ -1,6 +1,8 @@
 unique_name: sales
 object_type: model
 label: sales
+dimensions:
+  - Product_Key
 metrics:
   - unique_name: m_factinternetsales_unitprice_sum
   - unique_name: m_factinternetsales_salesamount_sum
