@@ -1,6 +1,6 @@
 version: 1
 packages:
-  - version: commit:d7f0ed2622b748b5f651db76efbec7f8d44f12b5
+  - version: commit:2efc23a685384fca6dba31471c233ff9d2193f5a
     name: shared
     url: https://github.com/anjali-atscale/Sales_test.git
     branch: main
